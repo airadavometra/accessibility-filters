@@ -1,8 +1,19 @@
 {
   "name": "web-accessibility-filters",
+  "author": "Daria Artemova",
+  "license": "MIT",
+  "description": "",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/airadavometra/accessibility-filters.git"
+  },
+  "bugs": {
+    "url": "https://github.com/airadavometra/accessibility-filters/issues"
+  },
+  "keywords": [],
   "version": "0.0.0",
   "type": "module",
-  "license": "MIT",
   "files": [
     "dist"
   ],
