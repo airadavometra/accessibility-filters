@@ -1,0 +1,28 @@
+{
+  "name": "web-accessibility-filters",
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/web-accessibility-filters.umd.cjs",
+  "module": "./dist/web-accessibility-filters.js",
+  "exports": {
+    ".": {
+      "import": "./dist/web-accessibility-filters.js",
+      "require": "./dist/web-accessibility-filters.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vite-plugin-dts": "^2.3.0"
+  }
+}
