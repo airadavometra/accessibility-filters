@@ -13,4 +13,6 @@ export const simulateBlurredVision = () => {
   //TODO: add pulse animation
 
   body.appendChild(filterElement);
+
+  return () => filterElement.remove();
 };

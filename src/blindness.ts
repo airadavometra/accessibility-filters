@@ -12,4 +12,6 @@ export const simulateBlindness = () => {
   filterElement.ariaHidden = "true";
 
   body.appendChild(filterElement);
+
+  return () => filterElement.remove();
 };
