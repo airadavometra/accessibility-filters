@@ -3,11 +3,12 @@ export const simulateBlindness = () => {
 
   const filterElement = document.createElement("div");
 
-  filterElement.style.position = "absolute";
+  filterElement.style.position = "fixed";
   filterElement.style.inset = "0";
   filterElement.style.pointerEvents = "none";
   filterElement.style.backgroundColor = "#80808090";
-  filterElement.style.backdropFilter = "blur(100px)";
+  filterElement.style.backdropFilter = "blur(30px)";
+  filterElement.style.zIndex = "1000000";
 
   filterElement.ariaHidden = "true";
 
